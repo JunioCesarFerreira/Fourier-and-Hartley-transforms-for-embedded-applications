@@ -1,0 +1,33 @@
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe.config
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.pdb
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csprojResolveAssemblyReference.cache
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.Form1.resources
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.Properties.Resources.resources
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csproj.GenerateResource.Cache
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.exe
+c:\users\junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.pdb
+C:\Users\Junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\bin\Debug\XYGraph.dll
+C:\Users\Junio\documents\visual studio 2012\Projects\MyDataReceiver\MyDataReceiver\bin\Debug\ExcelLibrary.dll
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe.config
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.exe
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\bin\Debug\ExcelLibrary.dll
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csprojResolveAssemblyReference.cache
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.Form1.resources
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csproj.GenerateResource.Cache
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\bin\Debug\ExcelLibrary.dll
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe.config
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.exe
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\bin\Debug\MyDataReceiver.pdb
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csprojAssemblyReference.cache
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.FormMain.resources
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csproj.GenerateResource.cache
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csproj.CoreCompileInputs.cache
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.csproj.CopyComplete
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.exe
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\MyDataReceiver\MyDataReceiver\obj\Debug\MyDataReceiver.pdb
