@@ -1,5 +1,5 @@
 # Fourier-and-Hartley-transforms-for-embedded-applications
-Códigos utilizados em TCC, Desempenho comparativo entre FFT e FHT no ESP8266, Analisador de vibrações mecânicas baseado no acelerômetro MPU6050 e ESP8266, Engenharia mecatrônica, Unifran, 2016.
+Códigos utilizados em trabalho de conclusão de curso (TCC) em engenharia mecatrônica, Unifran, 2016. Título do trabalho "Desempenho comparativo das transformadas de Fourier e Hartley e aplicação embarcada para análise de vibrações mecânicas". Neste repositório estão todos os códigos utilizados no desenvolvimento do trabalho, que consiste de duas partes. A primeira é a implementação e comparação entre as transformadas rápidas de Fourier e Hartley. E a segunda, consiste na implementação e teste de um analisador de vibrações mecânicas baseado no acelerômetro MPU6050 junto com o MCU ESP8266.
 * Segue a descrição dos diretórios contidos neste repositório:
 * [Dev_cpp](https://github.com/JunioCesarFerreira/Fourier-and-Hartley-transforms-for-embedded-applications/tree/master/Dev_cpp): 
 Códigos para transformadas discretas e dos algoritmos Cooley-Tukey Radix-2 para as transformadas rápidas de Fourier e de Hartley, este é um arquivo interessante para quem está procurando compreender o funcionamento destes algoritmos. Escrito em linguagem C++ no DEV-CPP.
