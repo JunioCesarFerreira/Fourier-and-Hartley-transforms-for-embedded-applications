@@ -1,0 +1,32 @@
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos\AnalisadorTresEixos\bin\Debug\MyDataReceiver.exe.config
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos\AnalisadorTresEixos\bin\Debug\ExcelLibrary.dll
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos\AnalisadorTresEixos\bin\Debug\MyDataReceiver.exe
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos\AnalisadorTresEixos\bin\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.csprojResolveAssemblyReference.cache
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos\AnalisadorTresEixos\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.csproj.GenerateResource.Cache
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos\AnalisadorTresEixos\obj\Debug\MyDataReceiver.exe
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos\AnalisadorTresEixos\obj\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.Form1.resources
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos - V2\AnalisadorTresEixos\bin\Debug\MyDataReceiver.exe.config
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\MyDataReceiver.exe
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos - V2\AnalisadorTresEixos\bin\Debug\ExcelLibrary.dll
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos - V2\AnalisadorTresEixos\bin\Debug\MyDataReceiver.exe
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos - V2\AnalisadorTresEixos\bin\Debug\MyDataReceiver.pdb
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.csprojResolveAssemblyReference.cache
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.Form1.resources
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\Junio\Dropbox\Meu TCC\Desenvolvimento\Interface em C#\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.csproj.GenerateResource.Cache
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\MyDataReceiver.Properties.Resources.resources
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.csproj.GenerateResource.cache
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\bin\Debug\ExcelLibrary.dll
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\bin\Debug\MyDataReceiver.exe.config
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\bin\Debug\MyDataReceiver.exe
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\bin\Debug\MyDataReceiver.pdb
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.FormMain.resources
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.csproj.CoreCompileInputs.cache
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.csproj.CopyComplete
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\MyDataReceiver.exe
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\MyDataReceiver.pdb
+C:\Users\jcf_s\Desktop\MyGit\Fourier-and-Hartley-transforms-for-embedded-applications-master\Interfaces\AnalisadorTresEixos - V2\AnalisadorTresEixos\obj\Debug\AnalisadorTresEixos.csprojAssemblyReference.cache
