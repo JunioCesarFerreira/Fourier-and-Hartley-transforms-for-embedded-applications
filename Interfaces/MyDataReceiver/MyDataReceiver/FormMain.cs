@@ -97,7 +97,7 @@ namespace MyDataReceiver
             Status_COM.ForeColor = Color.Red;
             Status_COM.BackColor = Color.DarkRed;
             Status_COM.Text = "OFF";
-            bt_Fechar.Enabled = false;
+            Button_SerialClose.Enabled = false;
             #endregion
 
             #region Configuração Serial do Terminal
@@ -445,8 +445,8 @@ namespace MyDataReceiver
                 Status_COM.ForeColor = Color.LightGreen;
                 Status_COM.BackColor = Color.DarkGreen;
                 Status_COM.Text = "ON";
-                bt_Fechar.Enabled = true;
-                bt_Abrir.Enabled = false;
+                Button_SerialClose.Enabled = true;
+                Button_SerialOpen.Enabled = false;
             }
             catch
             {
@@ -467,30 +467,12 @@ namespace MyDataReceiver
                 Status_COM.ForeColor = Color.Red;
                 Status_COM.BackColor = Color.DarkRed;
                 Status_COM.Text = "OFF";
-                bt_Abrir.Enabled = true;
-                bt_Fechar.Enabled = false;
+                Button_SerialOpen.Enabled = true;
+                Button_SerialClose.Enabled = false;
             }
             catch
             {
                 MessageBox.Show("Falha ao encerrar COM");
-            }
-        }
-
-        private void btn_load_Click(object sender, EventArgs e)
-        {
-            DialogResult result;
-            result = openFileDialog1.ShowDialog();
-            string local = openFileDialog1.FileName.ToString();
-            if (result != DialogResult.Cancel)
-            {
-                try
-                {
-                    
-                }
-                catch
-                {
-                    MessageBox.Show("Não foi Possível abrir o Arquivo!", "ERRO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
         }
         #endregion

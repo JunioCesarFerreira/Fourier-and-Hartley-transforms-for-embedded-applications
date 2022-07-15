@@ -39,8 +39,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.CB_Porta = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.bt_Fechar = new System.Windows.Forms.Button();
-            this.bt_Abrir = new System.Windows.Forms.Button();
+            this.Button_SerialClose = new System.Windows.Forms.Button();
+            this.Button_SerialOpen = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -52,7 +52,6 @@
             this.CB_VectorLenght = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btn_load = new System.Windows.Forms.Button();
             this.btn_Salvar = new System.Windows.Forms.Button();
             this.btn_nova_planilha = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
@@ -136,8 +135,8 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.CB_Porta);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.bt_Fechar);
-            this.groupBox1.Controls.Add(this.bt_Abrir);
+            this.groupBox1.Controls.Add(this.Button_SerialClose);
+            this.groupBox1.Controls.Add(this.Button_SerialOpen);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBox1.Location = new System.Drawing.Point(12, 3);
@@ -203,27 +202,27 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "PORTA:";
             // 
-            // bt_Fechar
+            // Button_SerialClose
             // 
-            this.bt_Fechar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bt_Fechar.Location = new System.Drawing.Point(574, 19);
-            this.bt_Fechar.Name = "bt_Fechar";
-            this.bt_Fechar.Size = new System.Drawing.Size(76, 34);
-            this.bt_Fechar.TabIndex = 1;
-            this.bt_Fechar.Text = "Fechar";
-            this.bt_Fechar.UseVisualStyleBackColor = false;
-            this.bt_Fechar.Click += new System.EventHandler(this.bt_Fechar_Click);
+            this.Button_SerialClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_SerialClose.Location = new System.Drawing.Point(574, 19);
+            this.Button_SerialClose.Name = "Button_SerialClose";
+            this.Button_SerialClose.Size = new System.Drawing.Size(76, 34);
+            this.Button_SerialClose.TabIndex = 1;
+            this.Button_SerialClose.Text = "Fechar";
+            this.Button_SerialClose.UseVisualStyleBackColor = false;
+            this.Button_SerialClose.Click += new System.EventHandler(this.bt_Fechar_Click);
             // 
-            // bt_Abrir
+            // Button_SerialOpen
             // 
-            this.bt_Abrir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bt_Abrir.Location = new System.Drawing.Point(495, 19);
-            this.bt_Abrir.Name = "bt_Abrir";
-            this.bt_Abrir.Size = new System.Drawing.Size(73, 34);
-            this.bt_Abrir.TabIndex = 0;
-            this.bt_Abrir.Text = "Abrir";
-            this.bt_Abrir.UseVisualStyleBackColor = false;
-            this.bt_Abrir.Click += new System.EventHandler(this.bt_Abrir_Click);
+            this.Button_SerialOpen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_SerialOpen.Location = new System.Drawing.Point(495, 19);
+            this.Button_SerialOpen.Name = "Button_SerialOpen";
+            this.Button_SerialOpen.Size = new System.Drawing.Size(73, 34);
+            this.Button_SerialOpen.TabIndex = 0;
+            this.Button_SerialOpen.Text = "Abrir";
+            this.Button_SerialOpen.UseVisualStyleBackColor = false;
+            this.Button_SerialOpen.Click += new System.EventHandler(this.bt_Abrir_Click);
             // 
             // groupBox2
             // 
@@ -339,7 +338,6 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.btn_load);
             this.groupBox4.Controls.Add(this.btn_Salvar);
             this.groupBox4.Controls.Add(this.btn_nova_planilha);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -350,17 +348,6 @@
             this.groupBox4.TabIndex = 9;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Planilha";
-            // 
-            // btn_load
-            // 
-            this.btn_load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_load.Location = new System.Drawing.Point(71, 19);
-            this.btn_load.Name = "btn_load";
-            this.btn_load.Size = new System.Drawing.Size(50, 34);
-            this.btn_load.TabIndex = 10;
-            this.btn_load.Text = "Load";
-            this.btn_load.UseVisualStyleBackColor = false;
-            this.btn_load.Click += new System.EventHandler(this.btn_load_Click);
             // 
             // btn_Salvar
             // 
@@ -393,7 +380,7 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -406,7 +393,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.xyGraph2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Name = "FormMain";
             this.Text = "Analise Espectral";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -433,8 +420,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox CB_Porta;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button bt_Fechar;
-        private System.Windows.Forms.Button bt_Abrir;
+        private System.Windows.Forms.Button Button_SerialClose;
+        private System.Windows.Forms.Button Button_SerialOpen;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -449,7 +436,6 @@
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btn_load;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
