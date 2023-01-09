@@ -12,14 +12,17 @@
 #define N    16  // Comprimento dos vetores de entrada e saída
 #define pi   3.1415926535897932384626433832795028841971693993751
 
-double Modulo(double Val){
+double Modulo(double Val)
+{
 	if (Val<0) return Val*-1;
 	else return Val;
 }
 
-unsigned int Table_Reverse(unsigned int index, unsigned int Lenght){
+unsigned int Table_Reverse(unsigned int index, unsigned int Lenght)
+{
 	unsigned int mirror, exp, Lim;
-	switch (Lenght){
+	switch (Lenght)
+	{
 		case 8:
 			Lim=3;
 			break;
@@ -43,7 +46,8 @@ unsigned int Table_Reverse(unsigned int index, unsigned int Lenght){
 			break;
 	}
 	mirror = 0;
-	for (exp=0;exp<Lim;exp++){
+	for (exp=0;exp<Lim;exp++)
+	{
 		mirror=mirror<<1;
 		mirror+=(0x01&index);
 		index=index>>1;
@@ -51,12 +55,14 @@ unsigned int Table_Reverse(unsigned int index, unsigned int Lenght){
 	return mirror;
 }
 
-unsigned int Complemento(unsigned int K, unsigned int L){
+unsigned int Complemento(unsigned int K, unsigned int L)
+{
 	if (K==0) return 0;
 	else return (L-K);
 }
 
-main(){
+main()
+{
 	double x[N]={1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0};
 	/*
 	{
@@ -81,14 +87,16 @@ main(){
 	for (i=0;i<N;i++) X[Table_Reverse(i,N)]=x[i];
 
     // Carrega vetor de coeficientes
-	for (i=0;i<N/2;i++){
+	for (i=0;i<N/2;i++)
+	{
 		C[i]=cos(i*2*pi/N);
 		S[i]=sin(i*2*pi/N);
 		printf("i=%d\tC=%.4f\tS=%.4f\n", i, C[i], S[i]);
 	}
 
 	// Computa FHT Cooley-Tukey radix-2
-	for (P=N;P>=2;P=P/2){
+	for (P=N;P>=2;P=P/2)
+	{
 		NP = (N/P);  // Comprimento da DHT decomposta
 		printf("\nP=%d", P);
 		L=P/2;          // Limite para deslocamentos da Butterfly do nível atual
@@ -96,8 +104,10 @@ main(){
 		printf("\nL=%d; N/P=%d; desl=%d\n", L, NP, desl);
 		// Deslocamento da Butterfly principal
 		volatile double R[N];
-		for (k=0;k<NP;k++){ // Desloca grupo de butterflys
-			for (i=0;i<L;i++){ // Desloca Butterfly
+		for (k=0;k<NP;k++)
+		{ // Desloca grupo de butterflys
+			for (i=0;i<L;i++)
+			{ // Desloca Butterfly
 				printf("\n i=%d\tk=%d\t-k=%d",i,k,Complemento(k,NP));
 				// Prepara entradas da Butterfly
 				a=X[k+i*desl];

@@ -1,14 +1,15 @@
 /*
-    Programa de testes Transformada Discreta de Fourier
+Programa de testes Transformada Discreta de Fourier
 	Algoritmo FFT Cooley-Tukey radix-2 Decimation-in-frequency
-    Desenvolvido por Junio Cesar Ferreira
-    Data: 19/06/2016
+Desenvolvido por Junio Cesar Ferreira
+Data: 19/06/2016
 */
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
-#define N    128  // Comprimento dos vetores de entrada e saída
+#define N
+128  // Comprimento dos vetores de entrada e saída
 #define pi   3.1415926535897932384626433832795028841971693993751
 
 unsigned int Table_Reverse(unsigned int index, unsigned int Lenght){
@@ -18,7 +19,7 @@ unsigned int Table_Reverse(unsigned int index, unsigned int Lenght){
 			Lim=3;
 			break;
 		case 16:
-		    Lim=4;
+			Lim=4;
 			break;
 		case 32:
 			Lim=5;
@@ -37,50 +38,61 @@ unsigned int Table_Reverse(unsigned int index, unsigned int Lenght){
 			break;
 	}
 	mirror = 0;
-	for (exp=0;exp<Lim;exp++){
+	for (exp=0;exp<Lim;exp++)
+	{
 		mirror=mirror<<1;
 		mirror+=(0x01&index);
 		index=index>>1;
 	}
 	return mirror;
 }
-main(){
+main()
+{
 	double x[N]={
 	1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0,
 	1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0,
 	1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0,
 	1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0
 	};// Vetor de entrada, inicializado com amostragem de uma onda quadrada
-	double Xreal[N];          // Vetor Saída Real
+	double Xreal[N];
+
+	// Vetor Saída Real
 	double Ximag[N]; 		  // Vetor Saída Imaginária
 	double V[N];
 	double Wr[N/2], Wi[N/2];
-	double pi_N=2*pi/N;;      // Auxiliar Pi*n
+	double pi_N=2*pi/N;;
+	// Auxiliar Pi*n
 	double ar, ai, br, bi;
 	unsigned int i, k, L, desl, P, NP;
 	printf("\n * Transformada Rapida de Fourier * "); 
 	// Calculo da FFT
 	// Carrega vetores
-	for (i=0;i<N;i++){
+	for (i=0;i<N;i++)
+	{
 		Xreal[i]=x[i];
 		Ximag[i]=0;
 	}
-    // Carrega vetor de coeficientes
-	for (i=0;i<N/2;i++){
+	// Carrega vetor de coeficientes
+	for (i=0;i<N/2;i++)
+	{
 		Wr[i] = cos(pi_N*i);
 		Wi[i] = -sin(pi_N*i);
 	}
 
 	// Computa FFT Cooley-Tukey radix-2
-	for (P=2;P<=N;P=2*P){
+	for (P=2;P<=N;P=2*P)
+	{
 		printf("\n");
 		// Deslocamento da Butterfly principal
-		for (k=0;k<N/P;k++){
+		for (k=0;k<N/P;k++)
+		{
 			L=(P/2)-1;   // Limite para deslocamentos da Butterfly do nível atual
-			NP = N/P;    // Comprimento da DFT decomposta
+			NP = N/P;
+			// Comprimento da DFT decomposta
 			desl = 2*NP; // Fator de deslocamento interno do nível
 			printf("\nk=%d; L=%d; N/P=%d; desl=%d",k,L,NP, desl);
-			for (i=0;i<=L;i++){
+			for (i=0;i<=L;i++)
+			{
 				printf("\n i=%d",i);
 				// Prepara entradas da Butterfly
 				ar=Xreal[k+i*desl];
@@ -97,12 +109,15 @@ main(){
 			}
 		}
 	}
-    // Normaliza resultado
-	for (i=0;i<N;i++){
+
+	// Normaliza resultado
+	for (i=0;i<N;i++)
+	{
 		Xreal[i]=2*Xreal[i]/N;
 		Ximag[i]=2*Ximag[i]/N;
 	}
-	for (i=0;i<N;i++){
+	for (i=0;i<N;i++)
+	{
 		V[Table_Reverse(i,N)]=sqrt(pow(Xreal[i],2)+pow(Ximag[i],2));
 	}
 	// Exibe vetor de entrada
@@ -110,28 +125,34 @@ main(){
 	for (i=0;i<N/2;i++) printf(" %.4f ", x[i]);
 	printf("\n");
 	for (;i<N;i++) printf(" %.4f ", x[i]);
-    // Exibe resultado em complexos
+
+	// Exibe resultado em complexos
 	printf("\n\nResultado FFT:\n");
-	for (i=0;i<N/4;i++){
+	for (i=0;i<N/4;i++)
+	{
 		if (Ximag[i]>=0) printf(" %.2f+%.2fi ", Xreal[i],Ximag[i]);
 		else printf(" %.2f%.2fi ", Xreal[i],Ximag[i]);
 	} 
 	printf("\n");
-	for (;i<N/2;i++){
+	for (;i<N/2;i++)
+	{
 		if (Ximag[i]>=0) printf(" %.2f+%.2fi ", Xreal[i],Ximag[i]);
 		else printf(" %.2f%.2fi ", Xreal[i],Ximag[i]);
 	}
 	printf("\n");
-	for (;i<3*N/4;i++){
+	for (;i<3*N/4;i++)
+	{
 		if (Ximag[i]>=0) printf(" %.2f+%.2fi ", Xreal[i],Ximag[i]);
 		else printf(" %.2f%.2fi ", Xreal[i],Ximag[i]);
 	}
 	printf("\n");
-	for (;i<N;i++){
+	for (;i<N;i++)
+	{
 		if (Ximag[i]>=0) printf(" %.2f+%.2fi ", Xreal[i],Ximag[i]);
 		else printf(" %.2f%.2fi ", Xreal[i],Ximag[i]);
 	}
-    // Exibe módulo do resultado 
+
+	// Exibe módulo do resultado 
 	printf("\n\nModulo da saida:\n");
 	for (i=0;i<N/2;i++) printf(" %.4f ", V[i]);
 	printf("\n");
@@ -142,6 +163,5 @@ main(){
 	//printf("\n");
 	//for (;i<N;i++) printf(" %.4f ", sqrt(pow(Xreal[i]-Ximag[i],2)));
 	
- 
 }
 

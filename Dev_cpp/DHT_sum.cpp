@@ -12,12 +12,14 @@
 #define pi   3.1415926535897932384626433832795028841971693993751
 
 // Módulo de um valor
-double Modulo(double Val){
+double Modulo(double Val)
+{
 	if (Val<0) return Val*-1;
 	else return Val;
 }
 
-main(){
+main()
+{
 	double x[N]=
 	{
 	1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0,
@@ -30,10 +32,12 @@ main(){
 	unsigned int i;  // Indexador de uso geral
 	printf("\n * Transformada Discreta de Hartley * ");  
 	// Calculo da DHT
-	for (int n=0; n<N; n++){
+	for (int n=0; n<N; n++)
+	{
 		X[n] = 0;
 		pi_N = 2*n*pi;
-		for (int k=0; k<N; k++){
+		for (int k=0; k<N; k++)
+		{
 			X[n] += x[k]*sqrt(2)*(cos((pi_N*k)/N-pi/4));//+sin((pi_N*k)/N));
 		}
 		X[n]=2*X[n]/N;
@@ -43,7 +47,7 @@ main(){
 	for (i=0;i<N/2;i++) printf(" %.4f ", x[i]);
 	printf("\n");
 	for (;i<N;i++) printf(" %.4f ", x[i]);
-    // Exibe resultado
+	// Exibe resultado
 	printf("\n\nResultado DHT:\n");
 	for (i=0;i<N/2;i++) printf(" %.4f ", X[i]);
 	printf("\n");
